@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <title>Manage Rent Page</title>
+  </head>
+  <body>
+    <div id="manage-page">
+      <section id="manage-agent-header">
+        <div class="sticky-nav">
+          <img
+            src="./Assets//icons/icons8-hamburger-50.png"
+            alt=""
+            class="Hamburger"
+          />
+          <a href="./index.html">
+            <img src="./Assets/my logo.png" alt="company's logo"
+          /></a>
+
+          <div class="input-container">
+            <input
+              type="text"
+              placeholder="Enter an address, Neibourhood, Zip-code or City"
+            />
+            <a href="./rent.html"
+              ><img src="./Assets/icons/search-icon.png" alt="search icons"
+            /></a>
+
+            <ul class="hidden Hamburger-open">
+              <li class="buy-menu">
+                <a href="./buy.html">BUY</a>
+              </li>
+              <li class="rent-menu">
+                <a href="./rent.html">RENT</a>
+              </li>
+              <li class="sell-menu">
+                <a href="./sell.html">SELL</a>
+              </li>
+              <li class="agent-menu">
+                <a href="./find-agent.html">FIND AGENT</a>
+              </li>
+              <li class="rent-menu">
+                <a href="./manage-rent.html">MANAGE RENTALS</a>
+              </li>
+              <li><a href="./advertise.html"> ADVERTISE</a></li>
+              <li><a href="./help.html"> HELP</a></li>
+              <li><a href="./signIn.html"> SIGN IN</a></li>
+            </ul>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li class="buy-menu">
+              <a href="./buy.html">BUY</a>
+              <div class="buy">
+                <div>
+                  <h3>Homes For Sale</h3>
+                  <ul>
+                    <li><a href="./buy.html">Homes for Sale</a></li>
+                    <li><a href="./buy.html">Foreclosures</a></li>
+                    <li><a href="./buy.html">For sale by owners</a></li>
+                    <li><a href="./buy.html">Open houses</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="construction">
+                    <li><a href="./buy.html">New construction</a></li>
+                    <li><a href="./buy.html">Coming soon</a></li>
+                    <li><a href="./buy.html">Recent home sales</a></li>
+                    <li><a href="./buy.html">All homes</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>Resources</h3>
+                  <ul>
+                    <li><a href="./buy.html">Buying home guide</a></li>
+                    <li><a href="./buy.html">Foreclosure Center</a></li>
+                    <li><a href="./buy.html"> App</a></li>
+                    <li><a href="./buy.html">Down Payment Assistant</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="rent-menu">
+              <a href="./rent.html">RENT</a>
+              <div class="rent">
+                <div>
+                  <h3>Search for rentals</h3>
+                  <ul>
+                    <li><a href="./rent.html">Rental Buildings</a></li>
+                    <li><a href="./rent.html">Apartment for Rent</a></li>
+                    <li><a href="./rent.html">Houses for Rent</a></li>
+                    <li><a href="./rent.html">All Rental Listingds</a></li>
+                    <li><a href="./rent.html">All Rental Buildings</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>Rental hub</h3>
+                  <ul class="construction">
+                    <li><a href="./rent.html">Contacted Rentals</a></li>
+                    <li><a href="./rent.html">Your Rentals</a></li>
+                    <li><a href="./rent.html">Message</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>Resources</h3>
+                  <ul>
+                    <li><a href="./rent.html">Affordability Calculator</a></li>
+                    <li><a href="./rent.html">Rent guide</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="sell-menu">
+              <a href="./sell.html">SELL</a>
+              <div class="sell">
+                <div>
+                  <h3>Resources</h3>
+                  <ul>
+                    <li><a href="./sell.html">Explore Your Options</a></li>
+                    <li><a href="./sell.html">See Your Home's Zestimate</a></li>
+                    <li><a href="./sell.html">Home Values</a></li>
+                    <li><a href="./sell.html">Sellers Guide</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>Selling Options</h3>
+                  <ul>
+                    <li><a href="./sell.html">manage A Seller's Agent</a></li>
+                    <li><a href="./sell.html">Post For sale By Owners</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="agent-menu">
+              <a href="./find-agent.html">FIND AGENT</a>
+              <div class="agent">
+                <div>
+                  <h3>Looking For Pros</h3>
+                  <ul>
+                    <li>
+                      <a href="./manage-agent.html">Real Estate Agents</a>
+                    </li>
+                    <li><a href="./manage-agent.html">Property Managers</a></li>
+                    <li><a href="./manage-agent.html">Home Inspectors</a></li>
+                    <li><a href="./manage-agent.html">Other Pros</a></li>
+                    <li>
+                      <a href="./manage-agent.html">Home Improvement Pros</a>
+                    </li>
+                    <li><a href="./manage-agent.html">Home Builders</a></li>
+                    <li>
+                      <a href="./manage-agent.html"
+                        >Real Estate Photographers</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>I'm A Pro</h3>
+                  <ul>
+                    <li><a href="./manage-agent.html">Agent Advertising</a></li>
+                    <li>
+                      <a href="./manage-agent.html">Agent Resources Center</a>
+                    </li>
+                    <li>
+                      <a href="./manage-agent.html"
+                        >Create A Free Agent Account</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./manage-agent.html"
+                        >Real Estate Business Plan</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./manage-agent.html">Real Estate Agent Script</a>
+                    </li>
+                    <li>
+                      <a href="./manage-agent.html">Listing Flier Template</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a href="./index.html"><img src="./Assets/my logo.png" alt="" /></a>
+
+          <ul>
+            <li class="rent-menu">
+              <a href="./manage-rent.html">MANAGE RENTALS</a>
+              <div class="manage">
+                <div class="tools">
+                  <h3>Rental Management Tools</h3>
+                  <ul>
+                    <li><a href="./manage-rent.html">List A Rental</a></li>
+                    <li><a href="./manage-rent.html">My Listings</a></li>
+                    <li><a href="./manage-rent.html">Messages</a></li>
+                    <li><a href="./manage-rent.html">Applications</a></li>
+                    <li><a href="./manage-rent.html">Leases</a></li>
+                    <li><a href="./manage-rent.html">Payments</a></li>
+                  </ul>
+                </div>
+                <div class="learn-more">
+                  <h3>Learn More</h3>
+                  <ul>
+                    <li>
+                      <a href="./manage-rent.html">Zillow Rental Manager</a>
+                    </li>
+                    <li><a href="./manage-rent.html">Price My Rental</a></li>
+                    <li><a href="./manage-rent.html">Resources Center</a></li>
+                    <li><a href="./help.html">Help Center</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li><a href="./advertise.html"> ADVERTISE</a></li>
+            <li><a href="./help.html"> HELP</a></li>
+            <li><a href="./signIn.html"> SIGN IN</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="manage-agent-tab">
+        <div class="tab-containers">
+          <div
+            class="process-tab process-tab--1 process--tab__active"
+            data-tab="1"
+          >
+            MekRent Rental Manager
+          </div>
+          <div class="process-tab process-tab--2" data-tab="2">Resources</div>
+          <div class="process-tab process-tab--3" data-tab="3">
+            Pricing My Rental
+          </div>
+          <div class="process-tab process-tab--4" data-tab="4">
+            Post A Listing
+          </div>
+        </div>
+        <div
+          class="container manage-content-container manage-content--1 manage-content-container__active"
+        >
+          <div class="manage-content">
+            <section class="manage-showcase">
+              <div class="showcase-text">
+                <h3 class="l-header">
+                  List your rental. Screen tenants. <br />
+                  Sign a lease. Get paid.
+                </h3>
+                <p>All in one place with MekRent Rental Manager.</p>
+                <button class="btn-long-3">
+                  List Your Properties For Free
+                </button>
+              </div>
+            </section>
+            <div class="manage-first-container">
+              <div class="manage-first">
+                <img src="./Assets/manage1.webp" alt="" />
+                <h3>Fill vacancies and manage properties</h3>
+                <p>
+                  Landlording made simple, whether you have one rental or an
+                  entire portfolio.
+                </p>
+              </div>
+              <div class="manage-first">
+                <img src="./Assets/manage2.webp" alt="" />
+                <h3>Over 30 million visitors each month*</h3>
+                <p>
+                  List your property for free on MekRent, Trulia and HotPads to
+                  help you find your perfect renter.
+                </p>
+              </div>
+              <div class="manage-first">
+                <img src="./Assets/manage3.webp" alt="" />
+                <h3>A brand you can trust</h3>
+                <p>
+                  Landlord tools built by industry experts and the brand that
+                  knows real estate.
+                </p>
+              </div>
+            </div>
+            <h3 class="m-header">It's easier than ever to be a landlord</h3>
+            <p>
+              Save time with our property management tools that help you get
+              what you need — signed leases and rent payments.
+            </p>
+            <section class="manage-second-container">
+              <div class="manage-second">
+                <div class="manage-second-text">
+                  <h3>Post your rental listing for free</h3>
+                  <p>
+                    Zillow Rental Manager's easy-to-use tools let you list your
+                    property where millions of renters search each month. Plus,
+                    messaging and tenant screening are integrated into our
+                    listing platform to help you find and screen applicants
+                    quickly.
+                  </p>
+                  <div class="btn-container">
+                    <button>Get Started</button>
+                    <button>Learn More</button>
+                  </div>
+                </div>
+                <div class="manage-second-img" id="right">
+                  <img src="./Assets/sell-home.jpg" alt="" />
+                  <img
+                    class="overlay-img"
+                    src="./Assets/home-block-3-overlay@2x.590ef639.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="manage-second">
+                <div class="manage-second-img" id="left">
+                  <img src="./Assets/showcase(2).jpg" alt="" />
+                  <img
+                    class="overlay-img"
+                    src="./Assets/home-block-4-overlay@2x.8f9c1142.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="manage-second-text">
+                  <h3>Screen tenants with online rental applications</h3>
+                  <p>
+                    Sign your next tenant with confidence using our online
+                    rental applications. Save time with credit reports,
+                    background checks, eviction history and income verification
+                    — all in one place. ⓘ
+                  </p>
+                  <div class="btn-container">
+                    <button>Accept Application</button>
+                    <button>Learn More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="manage-second">
+                <div class="manage-second-text">
+                  <h3>Sign a rental lease</h3>
+                  <p>
+                    Create your rental lease using our online lease builder and
+                    templates drafted with local law firms, or upload your own
+                    lease and e-sign it with your renters.ⓘ
+                  </p>
+                  <div class="btn-container">
+                    <button>Create a Lease</button>
+                    <button>Learn More</button>
+                  </div>
+                </div>
+                <div class="manage-second-img" id="right">
+                  <img src="./Assets/rent-home.jpg" alt="" />
+                  <img
+                    class="overlay-img"
+                    src="./Assets/home-block-5-overlay@2x.e2610645.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="manage-second">
+                <div class="manage-second-img" id="left">
+                  <img src="./Assets/preparing-to-sell-2.jpg" alt="" />
+                  <img
+                    class="overlay-img"
+                    src="./Assets/home-block-6-overlay@2x.1cafc428.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="manage-second-text">
+                  <h3>Collect rent payments</h3>
+                  <p>
+                    The convenient way for landlords to get paid. Rent,
+                    utilities, move-in fees and more are deposited straight into
+                    your bank account — at no cost to you.
+                  </p>
+                  <div class="btn-container">
+                    <button>Get Paid</button>
+                    <button>Learn More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="manage-second">
+                <div class="manage-second-text-last">
+                  <h3>Get the most from your listings with premium</h3>
+                  <p>
+                    For a one-time fee, you can upgrade your property to our
+                    premium listing experience — to help you manage your rental
+                    and fill vacancies fast.
+                  </p>
+                  <h3 class="s-header">Increased exposure</h3>
+                  <p>
+                    Get more eyes on your listing from renters searching in your
+                    area.
+                  </p>
+                  <h3 class="s-header">Pricing & market insights</h3>
+                  <p>
+                    Track listing performance data and trends to price your
+                    rental competitively.
+                  </p>
+                  <h3 class="s-header">Listing recommendations</h3>
+                  <p>
+                    Get customized tips to help your listing appeal to renters.
+                  </p>
+                  <button>Upgrade To Premium</button>
+                </div>
+                <div class="manage-second-img">
+                  <img src="./Assets/showcase(2).jpg" alt="" />
+                </div>
+              </div>
+            </section>
+            <div class="cards-container">
+              <div class="cards">
+                <div class="text">
+                  <h3>Here's what others are saying</h3>
+                  <p>
+                    "The number and quality of inquiries was amazing. Very
+                    pleased by how user-friendly and fast it is."
+                  </p>
+                  <p>Emeka, Landlord, Surulere, LOS</p>
+                </div>
+              </div>
+              <div class="cards">
+                <div class="text">
+                  <h3>Here's what others are saying</h3>
+                  <p>
+                    "The number and quality of inquiries was amazing. Very
+                    pleased by how user-friendly and fast it is."
+                  </p>
+                  <p>Emeka, Landlord, Surulere, LOS</p>
+                </div>
+              </div>
+              <div class="cards">
+                <div class="text">
+                  <h3>Here's what others are saying</h3>
+                  <p>
+                    "The number and quality of inquiries was amazing. Very
+                    pleased by how user-friendly and fast it is."
+                  </p>
+                  <p>Emeka, Landlord, Surulere, LOS</p>
+                </div>
+              </div>
+              <div class="cards">
+                <div class="text">
+                  <h3>Here's what others are saying</h3>
+                  <p>
+                    "The number and quality of inquiries was amazing. Very
+                    pleased by how user-friendly and fast it is."
+                  </p>
+                  <p>Emeka, Landlord, Surulere, LOS</p>
+                </div>
+              </div>
+              <div class="cards">
+                <div class="text">
+                  <h3>Here's what others are saying</h3>
+                  <p>
+                    "The number and quality of inquiries was amazing. Very
+                    pleased by how user-friendly and fast it is."
+                  </p>
+                  <p>Emeka, Landlord, Surulere, LOS</p>
+                </div>
+              </div>
+              <button
+                class="slider__btn slider__btn--left"
+                data-slide-index="1"
+              >
+                <img src="./Assets/icons/icons8-left-arrow-30.png" alt="" />
+              </button>
+              <button
+                class="slider__btn slider__btn--right"
+                data-slide-index="1"
+              >
+                <img src="./Assets/icons/icons8-arrow-right-50.png" alt="" />
+              </button>
+            </div>
+            <footer class="container" id="footer">
+              <ul>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./mekmates.html">Mekmates</a></li>
+                <li><a href="./recharge.html">Research</a></li>
+                <li><a href="./career.html">Career</a></li>
+                <li><a href="./advertise.html">Advertise</a></li>
+                <li><a href="./help.html">Help</a></li>
+                <li><a href="./advocacy.html">Advocacy</a></li>
+                <li><a href="./terms-of-use.html">Terms of Use</a></li>
+                <li><a href="./privacy.html">privacy Portal</a></li>
+                <li><a href="./cookies.html">Cookie</a></li>
+                <li><a href="./learn.html">Learn</a></li>
+                <li><a href="./ai.html">AI</a></li>
+              </ul>
+            </footer>
+          </div>
+        </div>
+
+        <div class="manage-content-container manage-content--2">
+          <div class="manage-content2">
+            <h3>Rentals Resource Center</h3>
+            <p>Landlording tips, tools and trends</p>
+            <div class="basic-container-header">
+              <h3>Landlording Basics</h3>
+              <div class="basics-container">
+                <div class="basics">
+                  <img src="./Assets/img2.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Landlording basics</p>
+                  </div>
+                  <h3>
+                    Watch: Recent Tips in landlording Behavior during cooling
+                    time
+                  </h3>
+                </div>
+                <div class="basics">
+                  <img src="./Assets/img2.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Landlording basics</p>
+                  </div>
+                  <h3>
+                    Watch: Recent Tips in landlording Behavior during cooling
+                    time
+                  </h3>
+                </div>
+                <div class="basics">
+                  <img src="./Assets/img2.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Landlording basics</p>
+                  </div>
+                  <h3>
+                    Watch: Recent Tips in landlording Behavior during cooling
+                    time
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="basic-container-header">
+              <h3>Landlording Basics</h3>
+              <div class="basics-container">
+                <div class="basics">
+                  <img src="./Assets/img2.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Landlording basics</p>
+                  </div>
+                  <h3>
+                    Watch: Recent Tips in landlording Behavior during cooling
+                    time
+                  </h3>
+                </div>
+                <div class="basics">
+                  <img src="./Assets/img2.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Landlording basics</p>
+                  </div>
+                  <h3>
+                    Watch: Recent Tips in landlording Behavior during cooling
+                    time
+                  </h3>
+                </div>
+                <div class="basics">
+                  <img src="./Assets/img2.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Landlording basics</p>
+                  </div>
+                  <h3>
+                    Watch: Recent Tips in landlording Behavior during cooling
+                    time
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="basic-container-header">
+              <h3>Tools & Forms</h3>
+              <div class="basics-container">
+                <div class="basics">
+                  <img src="./Assets/img1.jpg" alt="" />
+
+                  <p>Tools and Forms</p>
+                  <h3>Move In Check-lists for landlord and tenants</h3>
+                </div>
+                <div class="basics">
+                  <img src="./Assets/img1.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Tools and Form</p>
+                  </div>
+                  <h3>The new normal for Renters: 3D Tour</h3>
+                </div>
+                <div class="basics">
+                  <img src="./Assets/img1.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Tools and Form</p>
+                  </div>
+                  <h3>Rental Property Calculator</h3>
+                </div>
+              </div>
+            </div>
+            <div class="basic-container-header">
+              <h3>Managing Your Rental</h3>
+              <div class="basics-container">
+                <div class="basics">
+                  <img src="./Assets/img3.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Landlord Law & Regulation</p>
+                  </div>
+                  <h3>
+                    Landlords In Lagos: What You Can And Can't Do When
+                    Considering
+                  </h3>
+                </div>
+                <div class="basics">
+                  <img src="./Assets/img3.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Managing Your Rental</p>
+                  </div>
+                  <h3>MekRent Economist Discussed What Renters Want In 2024</h3>
+                </div>
+                <div class="basics">
+                  <img src="./Assets/img2.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Managing Your Rental</p>
+                  </div>
+                  <h3>8 Home Features Renters Want Most</h3>
+                </div>
+              </div>
+            </div>
+            <div class="basic-container-header">
+              <h3>Landlord Laws & Regulations</h3>
+              <div class="basics-container">
+                <div class="basics">
+                  <img src="./Assets/img4.jpg" alt="" />
+
+                  <p>Landlord Laws & Regulations</p>
+                  <h3>Rental Income Tax Deduction</h3>
+                </div>
+                <div class="basics">
+                  <img src="./Assets/img4.jpg" alt="" />
+                  <div class="wrap">
+                    <div class="wrap">
+                      <p>Featured</p>
+                      <p>Landlord Law & Regulation</p>
+                    </div>
+                    <h3>
+                      Landlords In Lagos: What You Can And Can't Do When
+                      Considering
+                    </h3>
+                  </div>
+                </div>
+                <div class="basics">
+                  <img src="./Assets/img4.jpg" alt="" />
+                  <div class="wrap">
+                    <p>Featured</p>
+                    <p>Landlord Law & Regulation</p>
+                  </div>
+                  <h3>
+                    Landlords In Lagos: What You Can And Can't Do When
+                    Considering
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="features">
+              <div class="featured">
+                <h3>FEATURED</h3>
+
+                <p>
+                  Watch: Recent Shifts in Renter Behaviors During a Cooling
+                  Market
+                </p>
+                <p>Top Rental Income Tax Deductions</p>
+                <p>
+                  Landlords in California: What You Can and Can't Do When
+                  Considering Applicant's Criminal Histories
+                </p>
+                <p>
+                  Coming Shifts in the Rental Market: Insights from MekRent's Q1
+                  2024 Webinar
+                </p>
+
+                <p>MekRent Rentals Consumer Housing Trends Report 2024</p>
+              </div>
+              <div class="recent">
+                <h3>RECENT</h3>
+                <p>Move-In Checklist for Landlords and Tenants</p>
+                <p>
+                  Watch: MekRent Experts Break Down 2023 Rental Growth &
+                  Affordability
+                </p>
+                <p>
+                  Landlords in Lagos: What You Can and Can't Do When Considering
+                  Applicants' Criminal Histories
+                </p>
+                <p>MekRent Economists Discuss What Renters Want in 2023</p>
+                <p>8 Home Features Renters Want Most</p>
+              </div>
+            </div>
+            <footer class="container" id="footer">
+              <ul>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./mekmates.html">Mekmates</a></li>
+                <li><a href="./recharge.html">Research</a></li>
+                <li><a href="./career.html">Career</a></li>
+                <li><a href="./advertise.html">Advertise</a></li>
+                <li><a href="./help.html">Help</a></li>
+                <li><a href="./advocacy.html">Advocacy</a></li>
+                <li><a href="./terms-of-use.html">Terms of Use</a></li>
+                <li><a href="./privacy.html">privacy Portal</a></li>
+                <li><a href="./cookies.html">Cookie</a></li>
+                <li><a href="./learn.html">Learn</a></li>
+                <li><a href="./ai.html">AI</a></li>
+              </ul>
+            </footer>
+          </div>
+        </div>
+        <div class="manage-content-container manage-content--3">
+          <section class="manage-showcase">
+            <div class="showcase-text">
+              <h3 class="l-header">How Much Should I Charge For Rent?</h3>
+              <div class="input-container-grid">
+                <input type="text" name="" id="" placeholder="Street Address" />
+                <input type="text" name="" id="" placeholder="Unit" />
+                <input type="text" name="" id="" placeholder="Email Address" />
+              </div>
+
+              <button class="btn">Continue</button>
+            </div>
+          </section>
+          <div class="need-help-container">
+            <h3 class="l-header">Need help pricing your rental?</h3>
+            <h3 class="m-header">
+              Our landlord tools and resources have you covered.
+            </h3>
+            <div class="need-help">
+              <div class="need-help-text">
+                <h3>Start with a free Rent Mekmate®</h3>
+                <p>
+                  The Rent Mekmate® uses millions of data points — plus local
+                  market trends — to give you a starting price point.
+                </p>
+                <h3>Get a pulse on the competition</h3>
+                <p>
+                  Sort, filter and analyze a customized list of rental comps for
+                  your area. Information from similar properties makes it easier
+                  to set the right price.
+                </p>
+                <h3>Stay on top of market trends</h3>
+                <p>
+                  After you receive your Rent Mekmate®, we'll send you resources
+                  to help you learn what renters want in your local market.
+                </p>
+                <div class="input-container-grid">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Street Address"
+                  />
+                  <input type="text" name="" id="" placeholder="Unit" />
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Email Address"
+                  />
+                </div>
+                <p class="tiny">
+                  By providing your email address, you agree to receive
+                  promotional and marketing materials from MekRent.
+                </p>
+                <button class="btn">Continue</button>
+              </div>
+              <div class="need-help-img">
+                <img src="./Assets/rental-comparison.07f74b88.webp" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="questions-container">
+            <h3 class="l-header">Common Questions About Renting Your Home</h3>
+            <ol>
+              <li class="l-header">How should I price my rental?</li>
+              <p>
+                To determine your rent price, consider local rent control laws,
+                the rental rates of homes in your area (rental comps), the
+                features of your home and changes in your local market. To get a
+                quick starting point, try our free Rent Mekmate® tool. To learn
+                more about pricing your rental, check out this article
+              </p>
+              <li class="l-header">How is my Rent Mekmate® calculated?</li>
+              <p>
+                The Rent Mekmate® tool helps provide a rent estimate by address.
+                To come up with the MekRent Rent Mekmate®, we look at:
+              </p>
+              <ul>
+                <li>
+                  The home's physical attributes and amenities (like square
+                  footage and number of bedrooms and bathrooms)
+                </li>
+                <li>
+                  Comparable rental properties and the market rental rates in
+                  the area
+                </li>
+                <li>
+                  Any owner-updated home facts, plus other public data like the
+                  last sale price
+                </li>
+                <p>
+                  Remember that this is just a rent estimate — it's not set in
+                  stone, but it serves as a resource for landlords and property
+                  managers. Learn more about the Rent Mekmate® here
+                </p>
+              </ul>
+              <li class="l-header">
+                What should I include in my rental listing?
+              </li>
+              <p>
+                Most renters (84%) search online when looking for a home, so
+                it's important to maximize your listing's exposure across
+                multiple brands. With Mekrent Rental Manager, you can advertise
+                your rental listings across three of the top five rental
+                networks — Zillow, Trulia and HotPads.* exposing your rental
+                listing to over 30 million monthly users.**
+              </p>
+              <li class="l-header">
+                What should I include in my rental listing?
+              </li>
+              <p>Some key elements to include in your listing are:</p>
+              <ul>
+                <li>
+                  A detailed rental property description (including square
+                  footage, number of bedrooms and bathrooms)
+                </li>
+                <li>Rent price, lease duration and required fees</li>
+                <li>At least 10 high-quality photos</li>
+                <li>
+                  Elevate your listing with a 3D Home® tour - easily include a
+                  3D virtual tour using the free MekRent 3D Home® app
+                </li>
+                <li>Parking and pet restrictions</li>
+                <li>Shared amenities</li>
+                <li>Proximity to transit, dining, shopping, etc.</li>
+                <p>Get more information about writing your listing here.</p>
+                <li class="l-header">
+                  When should I raise or lower my rent price?
+                </li>
+                <p>
+                  As a landlord, you may consider increasing your rent if market
+                  rates, property taxes, insurance premiums or homeowners
+                  association fees have increased. Also consider if there are
+                  property maintenance expenses that need to be covered. This
+                  guide can help you make your decision. <br /><br />
+                  If you're struggling to find renters, you may consider
+                  lowering your rental price. You may also try rethinking your
+                  terms (i.e. offering short-term leases) or offering a discount
+                  on first month's rent. Just make sure you're aware of what
+                  your budget can accommodate.
+                </p>
+                <p class="tiny">
+                  *Source: Comscore Media Metrix® Multi-Platform Key Measures,
+                  Custom-defined list including: Zillow.com Rentals, Trulia.com
+                  Rentals, HotPads.com, Apartments.com, Rent.com,
+                  Apartmentguide.com, Apartmenthomeliving.com, Forrent.com,
+                  Apartmentfinder.com, Rentals.com, Total Unique Visitors,
+                  December 2019
+                </p>
+                <p class="tiny">**Source: Zillow Internal Data, 2021</p>
+              </ul>
+            </ol>
+          </div>
+          <footer class="container" id="footer">
+            <ul>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./mekmates.html">Mekmates</a></li>
+              <li><a href="./recharge.html">Research</a></li>
+              <li><a href="./career.html">Career</a></li>
+              <li><a href="./advertise.html">Advertise</a></li>
+              <li><a href="./help.html">Help</a></li>
+              <li><a href="./advocacy.html">Advocacy</a></li>
+              <li><a href="./terms-of-use.html">Terms of Use</a></li>
+              <li><a href="./privacy.html">privacy Portal</a></li>
+              <li><a href="./cookies.html">Cookie</a></li>
+              <li><a href="./learn.html">Learn</a></li>
+              <li><a href="./ai.html">AI</a></li>
+            </ul>
+          </footer>
+        </div>
+
+        <div class="manage-content-container manage-content--4">
+          <footer class="container" id="footer">
+            <ul>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./mekmates.html">Mekmates</a></li>
+              <li><a href="./recharge.html">Research</a></li>
+              <li><a href="./career.html">Career</a></li>
+              <li><a href="./advertise.html">Advertise</a></li>
+              <li><a href="./help.html">Help</a></li>
+              <li><a href="./advocacy.html">Advocacy</a></li>
+              <li><a href="./terms-of-use.html">Terms of Use</a></li>
+              <li><a href="./privacy.html">privacy Portal</a></li>
+              <li><a href="./cookies.html">Cookie</a></li>
+              <li><a href="./learn.html">Learn</a></li>
+              <li><a href="./ai.html">AI</a></li>
+            </ul>
+          </footer>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

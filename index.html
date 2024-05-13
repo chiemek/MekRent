@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+
+    <title>Home Page</title>
+  </head>
+  <body>
+    <div class="sticky-nav">
+      <img
+        src="./Assets//icons/icons8-hamburger-50.png"
+        alt=""
+        class="Hamburger"
+      />
+      <a href="./index.html">
+        <img src="./Assets/my logo.png" alt="company's logo"
+      /></a>
+
+      <div class="input-container">
+        <input
+          type="text"
+          placeholder="Enter an address, Neibourhood, Zip-code or City"
+        />
+        <a href="./rent.html"
+          ><img src="./Assets/icons/search-icon.png" alt="search icons"
+        /></a>
+
+        <ul class="hidden Hamburger-open">
+          <li class="buy-menu">
+            <a href="./buy.html">BUY</a>
+          </li>
+          <li class="rent-menu">
+            <a href="./rent.html">RENT</a>
+          </li>
+          <li class="sell-menu">
+            <a href="./sell.html">SELL</a>
+          </li>
+          <li class="agent-menu">
+            <a href="./find-agent.html">FIND AGENT</a>
+          </li>
+          <li class="rent-menu">
+            <a href="./manage-rent.html">MANAGE RENTALS</a>
+          </li>
+          <li><a href="./advertise.html"> ADVERTISE</a></li>
+          <li><a href="./help.html"> HELP</a></li>
+          <li><a href="./signIn.html"> SIGN IN</a></li>
+        </ul>
+      </div>
+    </div>
+    <header>
+      <nav>
+        <ul>
+          <li class="buy-menu">
+            <a href="./buy.html">BUY</a>
+            <div class="buy">
+              <div>
+                <h3>Homes For Sale</h3>
+                <ul>
+                  <li><a href="./buy.html">Homes for Sale</a></li>
+                  <li><a href="./buy.html">Foreclosures</a></li>
+                  <li><a href="./buy.html">For sale by owners</a></li>
+                  <li><a href="./buy.html">Open houses</a></li>
+                </ul>
+              </div>
+              <div>
+                <ul class="construction">
+                  <li><a href="./buy.html">New construction</a></li>
+                  <li><a href="./buy.html">Coming soon</a></li>
+                  <li><a href="./buy.html">Recent home sales</a></li>
+                  <li><a href="./buy.html">All homes</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Resources</h3>
+                <ul>
+                  <li><a href="./buy.html">Buying home guide</a></li>
+                  <li><a href="./buy.html">Foreclosure Center</a></li>
+                  <li><a href="./buy.html"> App</a></li>
+                  <li><a href="./buy.html">Down Payment Assistant</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="rent-menu">
+            <a href="./rent.html">RENT</a>
+            <!-- <div class="rent">
+              <div>
+                <h3>Search for rentals</h3>
+                <ul>
+                  <li><a href="./rent.html">Rental Buildings</a></li>
+                  <li><a href="./rent.html">Apartment for Rent</a></li>
+                  <li><a href="./rent.html">Houses for Rent</a></li>
+                  <li><a href="./rent.html">All Rental Listingds</a></li>
+                  <li><a href="./rent.html">All Rental Buildings</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Rental hub</h3>
+                <ul class="construction">
+                  <li><a href="./rent.html">Contacted Rentals</a></li>
+                  <li><a href="./rent.html">Your Rentals</a></li>
+                  <li><a href="./rent.html">Message</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Resources</h3>
+                <ul>
+                  <li><a href="./rent.html">Affordability Calculator</a></li>
+                  <li><a href="./rent.html">Rent guide</a></li>
+                </ul>
+              </div>
+            </div> -->
+          </li>
+          <li class="sell-menu">
+            <a href="./sell.html">SELL</a>
+            <!-- <div class="sell">
+              <div>
+                <h3>Resources</h3>
+                <ul>
+                  <li><a href="./sell.html">Explore Your Options</a></li>
+                  <li><a href="./sell.html">See Your Home's Zestimate</a></li>
+                  <li><a href="./sell.html">Home Values</a></li>
+                  <li><a href="./sell.html">Sellers Guide</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Selling Options</h3>
+                <ul>
+                  <li><a href="./sell.html">Find A Seller's Agent</a></li>
+                  <li><a href="./sell.html">Post For sale By Owners</a></li>
+                </ul>
+              </div>
+            </div> -->
+          </li>
+          <li class="agent-menu">
+            <a href="./find-agent.html">FIND AGENT</a>
+            <!-- <div class="agent">
+              <div>
+                <h3>Looking For Pros</h3>
+                <ul>
+                  <li><a href="./find-agent.html">Real Estate Agents</a></li>
+                  <li><a href="./find-agent.html">Property Managers</a></li>
+                  <li><a href="./find-agent.html">Home Inspectors</a></li>
+                  <li><a href="./find-agent.html">Other Pros</a></li>
+                  <li><a href="./find-agent.html">Home Improvement Pros</a></li>
+                  <li><a href="./find-agent.html">Home Builders</a></li>
+                  <li>
+                    <a href="./find-agent.html">Real Estate Photographers</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3>I'm A Pro</h3>
+                <ul>
+                  <li><a href="./find-agent.html">Agent Advertising</a></li>
+                  <li>
+                    <a href="./find-agent.html">Agent Resources Center</a>
+                  </li>
+                  <li>
+                    <a href="./find-agent.html">Create A Free Agent Account</a>
+                  </li>
+                  <li>
+                    <a href="./find-agent.html">Real Estate Business Plan</a>
+                  </li>
+                  <li>
+                    <a href="./find-agent.html">Real Estate Agent Script</a>
+                  </li>
+                  <li>
+                    <a href="./find-agent.html">Listing Flier Template</a>
+                  </li>
+                </ul>
+              </div>
+            </div> -->
+          </li>
+        </ul>
+        <a href="./index.html"><img src="./Assets/my logo.png" alt="" /></a>
+
+        <ul>
+          <li class="rent-menu">
+            <a href="./manage-rent.html">MANAGE RENTALS</a>
+            <!-- <div class="manage">
+              <div class="tools">
+                <h3>Rental Management Tools</h3>
+                <ul>
+                  <li><a href="./manage-rent.html">List A Rental</a></li>
+                  <li><a href="./manage-rent.html">My Listings</a></li>
+                  <li><a href="./manage-rent.html">Messages</a></li>
+                  <li><a href="./manage-rent.html">Applications</a></li>
+                  <li><a href="./manage-rent.html">Leases</a></li>
+                  <li><a href="./manage-rent.html">Payments</a></li>
+                </ul>
+              </div>
+              <div class="learn-more">
+                <h3>Learn More</h3>
+                <ul>
+                  <li>
+                    <a href="./manage-rent.html">Zillow Rental Manager</a>
+                  </li>
+                  <li><a href="./manage-rent.html">Price My Rental</a></li>
+                  <li><a href="./manage-rent.html">Resources Center</a></li>
+                  <li><a href="./help.html">Help Center</a></li>
+                </ul>
+              </div>
+            </div> -->
+          </li>
+          <li><a href="./advertise.html"> ADVERTISE</a></li>
+          <li><a href="./help.html"> HELP</a></li>
+          <li><a href="./signIn.html"> SIGN IN</a></li>
+        </ul>
+      </nav>
+      <div class="showcase-text">
+        <h1 class="m-header">AGENTS.TOUR.HOMES</h1>
+        <div class="input-container">
+          <input
+            type="text"
+            placeholder="Enter an address, Neibourhood, Zip-code or City"
+          />
+          <a href="./rent.html"
+            ><img src="./Assets/icons/search-icon.png" alt="search icons"
+          /></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="for-you-section container">
+        <div class="text">
+          <div>
+            <h3>Homes For You</h3>
+            <p>Based on homes you recently viewed</p>
+          </div>
+          <div class="direction-arrows">
+            <img
+              class="prev"
+              src="./Assets/icons/icons8-left-arrow-30.png"
+              alt="left-arrow"
+            />
+            <img
+              class="next"
+              src="./Assets/icons/icons8-arrow-right-50.png"
+              alt="right-arrow"
+            />
+          </div>
+        </div>
+        <div class="slider">
+          <div class="for-you-container">
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+          </div>
+        </div>
+        <a href="#more-recommended"
+          ><img src="./Assets/icons/icons8-down-arrow-50.png" alt="" />
+          <p>More recommended homes</p></a
+        >
+      </div>
+      <section id="boxes">
+        <div class="selections">
+          <img src="./Assets/buy-home.jpg" alt="house photo" />
+          <h3>Buy A House</h3>
+          <p>
+            Find your place with an immersible picture experience and the most
+            listings, including things you wont find anywhere else
+          </p>
+          <a href="./buy.html">Browse Homes </a>
+        </div>
+        <div class="selections">
+          <img src="./Assets/sell-home.jpg" alt="house photo" />
+          <h3>Sell A House</h3>
+          <p>
+            No matter the part you want take to sell your home, we can help you
+            navigate a succesful sale.
+          </p>
+          <a href="./buy.html">See Your Options </a>
+        </div>
+        <div class="selections">
+          <img src="./Assets/rent-home.jpg" alt="house photo" />
+          <h3>Rent A House</h3>
+          <p>
+            We are creating a seamless online experience from shoppingon the
+            largest rental network, to applying, to paying rent.
+          </p>
+          <a href="./buy.html">Find Rental</a>
+        </div>
+      </section>
+      <div class="for-you-section container">
+        <div class="text">
+          <div>
+            <h3>Homes For You</h3>
+            <p>Based on homes you recommendation</p>
+          </div>
+          <div class="direction-arrows">
+            <img
+              class="arrow-left"
+              src="./Assets/icons/icons8-left-arrow-30.png"
+              alt="left-arrow"
+            />
+            <img
+              class="arrow-right"
+              src="./Assets/icons/icons8-arrow-right-50.png"
+              alt="right-arrow"
+            />
+          </div>
+        </div>
+        <div class="slider">
+          <div class="for-you-container">
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+            <div class="for-you-card">
+              <img src="./Assets/rent-home.jpg" alt="house-image" />
+              <p>$699,000</p>
+              <p>3bds | 2ba | 1,960 sqft | Active</p>
+              <p>27 Ejire ijesha, Lagos</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="more-recommended">
+          <h3 class="m-header">About Zillow's recommendations</h3>
+          <p>
+            Recommendations are based on your location and search activity, such
+            as the homes you've viewed and saved and the filters you've used. We
+            use this information to bring similar homes to your attention, so
+            you don't miss out.
+          </p>
+        </div>
+        <div class="drop-down-container container">
+          <div class="real-estate">
+            <div class="text-img">
+              <h3>Real Estate</h3>
+              <img src="./Assets/icons/icons8-down-arrow-50.png" alt="" />
+            </div>
+            <div class="drop hidden">
+              <ul>
+                <li><a href="./sell.html">Browse all homes</a></li>
+                <li><a href="./sell.html">Lagos Real Estate</a></li>
+                <li><a href="./sell.html">Abuja Real Estate</a></li>
+                <li><a href="./sell.html">Anambra Real Estate</a></li>
+                <li><a href="./sell.html">Ogun Real Estate</a></li>
+                <li><a href="./sell.html">Ekiti Real Estate</a></li>
+                <li><a href="./sell.html">Enugu Real Estate</a></li>
+                <li><a href="./sell.html">Asaba Real Estate</a></li>
+                <li><a href="./sell.html">Benin Real Estate</a></li>
+                <li><a href="./sell.html">Oweri Real Estate</a></li>
+                <li><a href="./sell.html">Ebonyi Real Estate</a></li>
+                <li><a href="./sell.html">Uyo Real Estate</a></li>
+                <li><a href="./sell.html">Kaduna Real Estate</a></li>
+                <li><a href="./sell.html">Kano Real Estate</a></li>
+                <li><a href="./sell.html">Kebbi Real Estate</a></li>
+                <li><a href="./sell.html">Benue Real Estate</a></li>
+                <li><a href="./sell.html">Awka Real Estate</a></li>
+                <li><a href="./sell.html">Surulere Real Estate</a></li>
+                <li><a href="./sell.html">Ijesha Real Estate</a></li>
+                <li><a href="./sell.html">Onittsha Real Estate</a></li>
+                <li><a href="./sell.html">Ogidi Real Estate</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="real-estate">
+            <div class="text-img">
+              <h3>Rentals</h3>
+              <img src="./Assets/icons/icons8-down-arrow-50.png" alt="" />
+            </div>
+            <div class="drop hidden">
+              <ul>
+                <li><a href="./rent.html">Rental Buildings</a></li>
+                <li><a href="./rent.html">Lagos Apartments for Rent</a></li>
+                <li><a href="./rent.html">Abuja Apartments for Rent</a></li>
+                <li><a href="./rent.html">Anambra Apartments for Rent</a></li>
+                <li><a href="./rent.html">Ogun Apartments for Rent</a></li>
+                <li><a href="./rent.html">Ekiti Apartments for Rent</a></li>
+                <li><a href="./rent.html">Enugu Apartments for Rent</a></li>
+                <li><a href="./rent.html">Asaba Apartments for Rent</a></li>
+                <li><a href="./rent.html">Benin Apartments for Rent</a></li>
+                <li><a href="./rent.html">Oweri Apartments for Rent</a></li>
+                <li><a href="./rent.html">Ebonyi Apartments for Rent</a></li>
+                <li><a href="./rent.html">Uyo Apartments for Rent</a></li>
+                <li><a href="./rent.html">Kaduna Apartments for Rent</a></li>
+                <li><a href="./rent.html">Kano Apartments for Rent</a></li>
+                <li><a href="./rent.html">Kebbi Apartments for Rent</a></li>
+                <li><a href="./rent.html">Benue Apartments for Rent</a></li>
+                <li><a href="./rent.html">Awka Apartments for Rent</a></li>
+                <li><a href="./rent.html">Surulere Apartments for Rent</a></li>
+                <li><a href="./rent.html">Ijesha Apartments for Rent</a></li>
+                <li><a href="./rent.html">Onittsha Apartments for Rent</a></li>
+                <li><a href="./rent.html">Ogidi Apartments for Rent</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="real-estate">
+            <div class="text-img">
+              <h3>Mortgage Rates</h3>
+              <img src="./Assets/icons/icons8-down-arrow-50.png" alt="" />
+            </div>
+            <div class="drop hidden">
+              <ul>
+                <li><a href="./mortgage.html">Current Morgage Rate</a></li>
+                <li><a href="./mortgage.html">Lagos Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Abuja Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Anambra Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Ogun Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Ekiti Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Enugu Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Asaba Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Benin Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Oweri Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Ebonyi Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Uyo Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Kaduna Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Kano Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Kebbi Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Benue Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Awka Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Surulere Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Ijesha Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Onittsha Mortgage Rate</a></li>
+                <li><a href="./mortgage.html">Ogidi Mortgage Rate</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="real-estate">
+            <div class="text-img last-img">
+              <h3>Browse Homes</h3>
+              <img src="./Assets/icons/icons8-down-arrow-50.png" alt="" />
+            </div>
+            <div class="drop hidden">
+              <ul>
+                <li><a href="./buy.html">Browse all homes</a></li>
+                <li><a href="./buy.html">Lagos </a></li>
+                <li><a href="./buy.html">Abuja </a></li>
+                <li><a href="./buy.html">Anambra </a></li>
+                <li><a href="./buy.html">Ogun </a></li>
+                <li><a href="./buy.html">Ekiti </a></li>
+                <li><a href="./buy.html">Enugu </a></li>
+                <li><a href="./buy.html">Asaba </a></li>
+                <li><a href="./buy.html">Benin </a></li>
+                <li><a href="./buy.html">Oweri </a></li>
+                <li><a href="./buy.html">Ebonyi </a></li>
+                <li><a href="./buy.html">Uyo </a></li>
+                <li><a href="./buy.html">Kaduna </a></li>
+                <li><a href="./buy.html">Kano </a></li>
+                <li><a href="./buy.html">Kebbi </a></li>
+                <li><a href="./buy.html">Benue </a></li>
+                <li><a href="./buy.html">Awka </a></li>
+                <li><a href="./buy.html">Surulere </a></li>
+                <li><a href="./buy.html">Ijesha </a></li>
+                <li><a href="./buy.html">Onittsha </a></li>
+                <li><a href="./buy.html">Ogidi </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="container" id="footer">
+        <ul>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./mekmates.html">Mekmates</a></li>
+          <li><a href="./recharge.html">Research</a></li>
+          <li><a href="./career.html">Career</a></li>
+          <li><a href="./help">Help</a></li>
+          <li><a href="./advertise.html">Advertise</a></li>
+          <li><a href="./help.html">Help</a></li>
+          <li><a href="./advocacy.html">Advocacy</a></li>
+          <li><a href="./terms-of-use.html">Terms of Use</a></li>
+          <li><a href="./privacy.html">privacy Portal</a></li>
+          <li><a href="./cookies.html">Cookie</a></li>
+          <li><a href="./learn.html">Learn</a></li>
+          <li><a href="./ai.html">AI</a></li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>
