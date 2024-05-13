@@ -1349,6 +1349,7 @@ input[type="submit"]:hover {
   box-shadow: 1px 1px 10px 1px rgb(79, 76, 76);
   background: var(--secondary-color);
   position: relative;
+  overflow: hidden;
 }
 
 #find-agent-header > nav ul {
@@ -2062,7 +2063,8 @@ body {
 
   /* navigation */
   header > nav,
-  #header > nav {
+  #header > nav,
+  #find-agent-header > nav {
     display: none;
 
     padding: 2rem 1.2rem;
@@ -2170,10 +2172,12 @@ body {
   .sticky-nav {
     display: flex;
     padding: 0.5rem 1rem;
+    width: 100vw;
     gap: 1rem;
     justify-content: center;
     position: fixed;
     top: 0;
+    overflow: hidden;
   }
 
   .sticky-nav .input-container {
