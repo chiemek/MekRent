@@ -190,7 +190,7 @@ header > nav ul {
   column-gap: 3rem;
 }
 
-header > nav ul a {
+header > nav > ul > li > a {
   text-decoration: none;
   color: var(--other-color);
   height: 4rem;
@@ -198,7 +198,7 @@ header > nav ul a {
   display: inline-block;
 }
 
-header > nav ul a:hover {
+header > nav > ul > li > a:hover {
   color: var(--text-color);
   text-decoration: underline;
 }
@@ -1580,7 +1580,7 @@ input[type="submit"]:hover {
 }
 
 /* manage-page */
-#manage-agent-header > nav {
+/* #manage-agent-header > nav {
   display: flex;
   justify-content: space-evenly;
 
@@ -1611,7 +1611,7 @@ input[type="submit"]:hover {
 
 #manage-agent-header > nav img {
   height: 4rem;
-}
+} */
 
 body {
   background-color: #e4eff3;
@@ -1975,8 +1975,8 @@ body {
 
 .buy {
   position: absolute;
-  background-color: #09b5f4;
-  color: #161d6e;
+  background-color: #94d7f0;
+  color: #1d2796;
   left: 0;
   width: 100%;
   height: 50vh;
@@ -1984,13 +1984,28 @@ body {
 }
 
 .buy div,
-.buy div ul {
+.buy div ul,
+.buy div h3 {
   display: flex;
   flex-direction: column;
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
 
 .buy div a {
   color: #161d6e;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 1.5rem;
+
+  &:hover {
+    color: #5e69e8;
+    text-decoration: underline;
+  }
+}
+
+.buy .construction {
+  margin-top: 3.5rem;
 }
 
 /* hidden class */
