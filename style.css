@@ -211,7 +211,7 @@ header > nav img {
 .for-you-section .text {
   display: flex;
   justify-content: space-between;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .for-you-section .direction-arrows img {
@@ -227,7 +227,7 @@ header > nav img {
 
 .slider {
   display: flex;
-  width: 72vw;
+  width: auto;
   overflow: hidden;
 }
 
@@ -247,6 +247,7 @@ header > nav img {
   text-align: center;
   height: 27rem;
   width: 20rem;
+  border-radius: 10px 10px 0 0;
 }
 
 .for-you-card img {
@@ -583,6 +584,10 @@ header > nav img {
   width: 1.5rem;
 }
 
+.sub-heading .sales {
+  position: relative;
+}
+
 /* sales */
 .for-sale {
   display: flex;
@@ -604,7 +609,7 @@ header > nav img {
 
 .sales form {
   position: absolute;
-  top: 8.5rem;
+  top: 3rem;
   border-radius: 5px;
   width: 10rem;
   background: #09b5f4;
@@ -781,6 +786,7 @@ input[type="submit"]:hover {
   padding: 1rem;
   border-radius: 10px;
   position: absolute;
+  right: 1rem;
   z-index: 10;
   box-shadow: 1px 1px 10px 1px rgb(79, 76, 76);
 }
@@ -907,7 +913,7 @@ input[type="submit"]:hover {
 
 #main .buy-card-container {
   height: 90vh;
-  width: 50%;
+  width: 70%;
   overflow: scroll;
   padding: 2rem;
 }
@@ -1980,7 +1986,7 @@ body {
   left: 0;
   width: 100%;
   height: 50vh;
-  display: flex;
+  display: none;
 }
 
 .buy div,
