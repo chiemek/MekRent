@@ -22,40 +22,6 @@ hamburger.addEventListener("click", function () {
 // //////////////////////////////////////////////////
 // img sliders 4 at a time
 
-document.addEventListener("DOMContentLoaded", function () {
-  const sliderContainer = document.querySelector(".for-you-container");
-  const slidersCard = document.querySelectorAll(".for-you-card");
-  let currentIndex = 0;
-
-  function slideNext() {
-    const imageWidth = slidersCard[0].offsetWidth;
-    currentIndex++;
-    if (currentIndex >= slidersCard.length) {
-      currentIndex = 0; // Reset to beginning
-    }
-    sliderContainer.style.transform = `translateX(-${
-      imageWidth * currentIndex
-    }px)`;
-  }
-
-  // Add event listener for next button click
-  // document.querySelector(".next-button").addEventListener("click", slideNext);
-
-  // Add event listener for previous button click
-  // document
-  //   .querySelector(".previous-button")
-  // .addEventListener("click", function () {
-  //   const imageWidth = slidersCard[0].offsetWidth;
-  //   currentIndex--;
-  //   if (currentIndex < 0) {
-  //     currentIndex = slidersCard.length - 1; // Go to last slide
-  //   }
-  //   sliderContainer.style.transform = `translateX(-${
-  //     imageWidth * currentIndex
-  //   }px)`;
-  // });
-});
-
 //
 // ////////////////////////////////////////////////
 // image slider 1 at a time

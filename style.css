@@ -2109,7 +2109,7 @@ body {
 
   .for-you-card {
     width: 300px; /* Adjust card width as needed */
-    height: 350px; /* Adjust card height as needed */
+    height: 400px; /* Adjust card height as needed */
     margin: 0 10px; /* Adjust card margin as needed */
     background-color: #f0f0f0;
     display: flex;
