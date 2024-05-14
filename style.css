@@ -146,7 +146,7 @@ header::before {
 
 .showcase-text {
   align-self: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
   text-align: center;
 }
 
@@ -1774,7 +1774,7 @@ body {
 }
 
 #manage-page .manage-second-container .manage-second .manage-second-text {
-  width: 40rem;
+  width: 30rem;
 }
 
 .manage-second-container .manage-second .manage-second-text h3 {
@@ -1835,14 +1835,14 @@ body {
   position: absolute;
   right: -45%;
   height: 20rem;
-  width: 24rem;
+  width: 20rem;
 }
 
 .manage-second #right .overlay-img {
   height: 20rem;
   width: 24rem;
   position: absolute;
-  left: -45%;
+  left: -40%;
 }
 .manage-second-text-last h3 {
   font-size: 1.8rem;
@@ -2042,8 +2042,8 @@ body {
   /* header */
   /* header {
     /* position: relative; */
-  */ .showcase-text {
-    margin-top: 20%;
+  .showcase-text {
+    margin-top: 13rem;
   }
 
   .showcase-text h1 {
@@ -2298,18 +2298,18 @@ body {
   /* //////////////////////////////////////////// */
   /* footer  */
   #footer {
-    width: 98vw;
+    padding-inline: 1rem;
+    width: 90vw;
     justify-content: center;
     margin: 0;
   }
   #footer ul {
-    gap: 1.5rem;
+    gap: 1rem;
     justify-content: space-evenly;
   }
 
   #footer ul li {
     font-size: 1.5rem;
-
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
   }

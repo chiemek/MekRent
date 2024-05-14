@@ -21,6 +21,78 @@ hamburger.addEventListener("click", function () {
 //
 // //////////////////////////////////////////////////
 // img sliders 4 at a time
+// document.addEventListener("DOMContentLoaded", function () {
+//   const sliderContainer = document.querySelector(".for-you-container");
+//   const slidersCard = document.querySelectorAll(".for-you-card");
+//   let currentIndex = 0;
+//   let touchStartX = 0;
+//   let touchEndX = 0;
+
+//   function slideNext() {
+//     const imageWidth = slidersCard[0].offsetWidth;
+//     currentIndex++;
+//     if (currentIndex >= slidersCard.length) {
+//       currentIndex = 0; // Reset to beginning
+//     }
+//     sliderContainer.style.transform = `translateX(-${
+//       imageWidth * currentIndex
+//     }px)`;
+//   }
+
+//   // Automatically slide every 5 seconds
+//   setInterval(slideNext, 5000);
+
+//   // Add event listener for next button click
+//   document.querySelector(".next-button").addEventListener("click", slideNext);
+
+//   // Add event listener for previous button click
+//   document
+//     .querySelector(".previous-button")
+//     .addEventListener("click", function () {
+//       const imageWidth = slidersCard[0].offsetWidth;
+//       currentIndex--;
+//       if (currentIndex < 0) {
+//         currentIndex = slidersCard.length - 1; // Go to last slide
+//       }
+//       sliderContainer.style.transform = `translateX(-${
+//         imageWidth * currentIndex
+//       }px)`;
+//     });
+
+//   // Add event listener for touch start
+//   sliderContainer.addEventListener("touchstart", function (event) {
+//     touchStartX = event.touches[0].screenX;
+//   });
+
+//   // Add event listener for touch move
+//   sliderContainer.addEventListener("touchmove", function (event) {
+//     touchEndX = event.touches[0].screenX;
+//   });
+
+//   // Add event listener for touch end
+//   sliderContainer.addEventListener("touchend", function () {
+//     const imageWidth = slidersCard[0].offsetWidth;
+//     if (touchEndX < touchStartX) {
+//       // Swipe right
+//       slideNext();
+//     } else if (touchEndX > touchStartX) {
+//       // Swipe left
+//       const previousIndex = currentIndex - 1;
+//       if (previousIndex < 0) {
+//         currentIndex = slidersCard.length - 1; // Go to last slide
+//       } else {
+//         currentIndex = previousIndex;
+//       }
+//     }
+//     sliderContainer.style.transform = `translateX(-${
+//       imageWidth * currentIndex
+//     }px)`;
+//     // Add this to reset to beginning if at end
+//     if (currentIndex >= slidersCard.length) {
+//       currentIndex = 0;
+//     }
+//   });
+// });
 
 //
 // ////////////////////////////////////////////////
